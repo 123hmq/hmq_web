@@ -2,23 +2,23 @@ const Plan = () => {
   // 短期规划
   const shortTermPlans = [
     {
-      title: '技术提升',
-      description: '深入学习Java后端开发技术栈，包括Spring Boot、Spring Cloud等微服务架构，提升代码质量和架构设计能力。',
+      title: 'AI技术栈学习',
+      description: '系统学习AI应用开发技术栈，重点掌握LangChain框架、Agent开发、提示词工程，结合已有Java基础构建AI应用能力。',
       timeline: '1-2年'
     },
     {
-      title: '项目积累',
-      description: '参与更多实际项目开发，积累实战经验，特别是在AI编程和全栈开发领域，构建自己的项目作品集。',
+      title: 'AI项目实践',
+      description: '从Java Web转型AI应用开发，参与或独立完成AI相关项目，积累实战经验，构建AI领域的项目作品集。',
       timeline: '1-2年'
     },
     {
-      title: '网站优化',
-      description: '持续优化个人技术网站，增加更多技术内容和交互功能，提升网站的专业性和用户体验。',
+      title: '技术能力整合',
+      description: '将Java后端开发能力与AI应用开发相结合，形成全栈+AI的复合型技术能力，提升市场竞争力。',
       timeline: '1-2年'
     },
     {
-      title: '证书考取',
-      description: '考取相关技术证书，如Java高级开发工程师、Python数据分析工程师等，提升专业认可度。',
+      title: 'AI生态融入',
+      description: '关注AI领域前沿动态，参与开源项目和技术社区，持续学习大模型应用开发的最新技术和工具。',
       timeline: '1-2年'
     }
   ]
@@ -26,23 +26,23 @@ const Plan = () => {
   // 长期规划
   const longTermPlans = [
     {
-      title: '个人品牌打造',
-      description: '通过技术分享、开源贡献等方式，打造个人技术品牌，成为领域内有影响力的技术专家。',
+      title: 'AI领域专家',
+      description: '深耕AI应用开发领域，成为具备全栈+AI能力的技术专家，在垂直行业落地有影响力的AI解决方案。',
       timeline: '3-5年'
     },
     {
-      title: '技术深耕',
-      description: '在AI编程与全栈开发领域深耕，掌握前沿技术，形成自己的技术专长和核心竞争力。',
+      title: 'AI产品化能力',
+      description: '从技术开发向产品化转型，具备将AI技术转化为商业产品的能力，参与或主导AI产品的完整生命周期。',
       timeline: '3-5年'
     },
     {
-      title: '合作拓展',
-      description: '与更多同行、企业建立合作关系，参与大型项目开发，实现个人价值的最大化。',
+      title: 'AI创业探索',
+      description: '探索AI领域的创业机会，结合自身技术优势和市场需求，打造有价值的AI应用产品或服务。',
       timeline: '3-5年'
     },
     {
-      title: '知识传播',
-      description: '通过博客、视频、线下分享等方式，传播技术知识，帮助更多开发者成长，回馈技术社区。',
+      title: 'AI知识传播',
+      description: '通过技术博客、开源贡献、线下分享等方式，在AI应用开发领域建立个人影响力，帮助更多开发者成长。',
       timeline: '3-5年'
     }
   ]

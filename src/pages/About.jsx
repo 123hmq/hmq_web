@@ -54,37 +54,78 @@ const About = () => {
           <div className="mb-8">
             <div className="flex justify-between items-center mb-2">
               <h6 className="font-medium">绍兴理工学院 - 数据科学与大数据技术专业本科</h6>
-              <span className="text-sm text-gray-500">2023年7月 - 2027年6月</span>
+              <span className="text-sm text-gray-500">2023年07月 - 2027年06月</span>
             </div>
             <p className="text-gray-600 pl-4 border-l-2 border-primary">
               学习计算机科学与技术专业知识，重点掌握 Python、Java、前端开发等技能，参与校级科研项目，熟悉项目开发流程，培养了严谨的逻辑思维和问题解决能力。
             </p>
           </div>
 
-          <h5 className="text-lg font-medium text-gray-700 mb-4">2. 成长关键节点</h5>
+          <h5 className="text-lg font-medium text-gray-700 mb-4">2. 资格证书</h5>
+          <div className="mb-8 pl-4 border-l-2 border-primary">
+            <div className="flex justify-between">
+              <span>HCA华为认证ICT工程师</span>
+              <span className="text-sm text-gray-500">2025年10月 - 2025年11月</span>
+            </div>
+          </div>
+
+          <h5 className="text-lg font-medium text-gray-700 mb-4">3. 志愿者经历</h5>
+          <div className="mb-8 pl-4 border-l-2 border-primary">
+            <div className="flex justify-between mb-2">
+              <span className="font-medium">2025年“6.26”国际禁毒日主题宣传活动</span>
+              <span className="text-sm text-gray-500">志愿者 · 2025年06月26日</span>
+            </div>
+            <p className="text-gray-600">作为在校大学生，我报名参加了2025年“6.26”国际禁毒日主题宣传活动，通过向公众回答有关禁毒的知识、分发禁毒宣传单等，向大众宣传禁毒知识，了解毒品的危害。</p>
+          </div>
+
+          <h5 className="text-lg font-medium text-gray-700 mb-4">4. 社团经历</h5>
+          <div className="mb-8 pl-4 border-l-2 border-primary">
+            <div className="flex justify-between mb-2">
+              <span className="font-medium">绍兴理工学院技术部</span>
+              <span className="text-sm text-gray-500">干事 · 2023.09-2024.09</span>
+            </div>
+            <p className="text-gray-600">在学校技术部担任干事，参加音乐会排练会场布置，在迎新活动中担任志愿者。</p>
+          </div>
+
+          <h5 className="text-lg font-medium text-gray-700 mb-4">5. 获奖情况</h5>
+          <div className="mb-8 pl-4 border-l-2 border-primary">
+            <ul className="space-y-2">
+              <li>在校担任学习委员</li>
+              <li>曾获2024年第九届“LSCAT”杯浙江省笔译大赛优胜奖</li>
+              <li>获2023-2024学年浙江省奖学金</li>
+              <li>获2023年一等奖学金</li>
+              <li>获第十六届全国大学生数学竞赛（非数学A类）优胜奖</li>
+              <li>获2023年优秀团员</li>
+              <li>2024-2025学年第一学期社会实践先进个人</li>
+              <li>英语四级已过</li>
+              <li>计算机二级，精通电脑办公软件</li>
+            </ul>
+          </div>
+
+          <h5 className="text-lg font-medium text-gray-700 mb-4">6. 成长关键节点</h5>
           <div className="space-y-6">
             <div className="flex">
               <div className="w-24 flex-shrink-0 text-sm text-gray-500">2023年</div>
               <div className="flex-grow pl-4 border-l-2 border-primary">
-                <p className="text-gray-700">首次接触编程，产生浓厚兴趣，开始自学Java基础语法</p>
+                <p className="text-gray-700">学习高数、概率论等基础大学课程。首次接触编程，产生浓厚兴趣，开始学习C语言、C++基础语法，形成基础的编程思维。</p>
               </div>
             </div>
             <div className="flex">
               <div className="w-24 flex-shrink-0 text-sm text-gray-500">2024年</div>
               <div className="flex-grow pl-4 border-l-2 border-primary">
-                <p className="text-gray-700">第一次独立完成编程项目，坚定了技术深耕的方向；开始尝试内容创作，发布第一篇个人技术文章</p>
+                <p className="text-gray-700">开始学习python基础语法,尝试用python实现爬虫，获取网络数据。同时接触web前端开发，学习html、css、js等基础技术。构建网页非常有成就感。</p>
               </div>
             </div>
             <div className="flex">
               <div className="w-24 flex-shrink-0 text-sm text-gray-500">2025年</div>
               <div className="flex-grow pl-4 border-l-2 border-primary">
-                <p className="text-gray-700">参与第一个商业项目，积累了实战经验，明确了个人技术风格；获得技术相关证书，提升了专业认可度</p>
+                <p className="text-gray-700">开始自学java,尝试自己写网站，构建后端数据库，结合大模型开发前端精美页面，提高开发效率</p>
               </div>
             </div>
             <div className="flex">
               <div className="w-24 flex-shrink-0 text-sm text-gray-500">2026年</div>
               <div className="flex-grow pl-4 border-l-2 border-primary">
-                <p className="text-gray-700">专注于Java后端开发领域，形成个人核心竞争力；开始对接合作需求，实现个人价值变现；决定搭建个人网站，整合个人资源，扩大个人影响力</p>
+                <p className="text-gray-700">专注于Java后端开发领域，和ai应用开发领域，决定搭建个人网站，整合个人资源，扩大个人影响力</p>
               </div>
             </div>
           </div>

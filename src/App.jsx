@@ -4,8 +4,6 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import ProjectDetail from './pages/ProjectDetail'
 import Skills from './pages/Skills'
-import Education from './pages/Education'
-import Experience from './pages/Experience'
 import Contact from './pages/Contact'
 import Blog from './pages/Blog'
 import Plan from './pages/Plan'
@@ -23,8 +21,6 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:id" element={<ProjectDetail />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/plan" element={<Plan />} />

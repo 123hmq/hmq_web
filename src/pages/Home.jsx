@@ -6,15 +6,19 @@ const Home = () => {
       {/* 首屏Banner */}
       <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 pt-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="animate-fade-in">
-              <div className="w-32 h-32 rounded-full bg-primary mx-auto md:mx-0 mb-6 flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-24 w-24 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6v6m0 0v6m0-6h6m-6 0H6M17 16l-5-5-5 5" />
-                  <circle cx="12" cy="8" r="3" stroke="currentColor" strokeWidth={1.5} fill="none" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 16h6" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 12v4" />
-                </svg>
+              <div className="flex items-start justify-between mb-6">
+                <div className="relative w-20 h-20 rounded-full flex-shrink-0 mt-4">
+                  <div className="absolute -inset-1 bg-gradient-to-r from-primary-200 to-primary-100 rounded-full blur-md"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="relative w-full h-full text-white bg-primary rounded-full p-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6v6m0 0v6m0-6h6m-6 0H6M17 16l-5-5-5 5" />
+                    <circle cx="12" cy="8" r="3" stroke="currentColor" strokeWidth={1.5} fill="none" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 16h6" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 12v4" />
+                  </svg>
+                </div>
+                <img src={`${import.meta.env.BASE_URL}images/person_i.jpg`} alt="赵京" className="w-60 h-60 object-cover object-right rounded-xl shadow-lg border-2 border-primary-100" />
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">赵京</h1>
               <p className="text-xl text-gray-600 mb-4">全栈开发 | 大模型应用开发 | 数据采集・热爱代码的技术女生</p>
